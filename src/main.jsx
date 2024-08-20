@@ -1,5 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import { StrictMode, useState } from 'react';
+import Footer from './Footer';
 
 const Header = (props) => {
     console.log(props);
@@ -90,6 +91,7 @@ const App = () => {
                     removeItem={handleRemoveItem}
                 />
             )}
+            <Footer />
         </div>
     );
 };
